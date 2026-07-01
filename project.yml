@@ -1,0 +1,56 @@
+name: Quiver
+options:
+  bundleIdPrefix: com.eliasleon
+  deploymentTarget:
+    iOS: "17.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait"
+    ENABLE_PREVIEWS: YES
+    SWIFT_EMIT_LOC_STRINGS: YES
+targets:
+  Quiver:
+    type: application
+    platform: iOS
+    configFiles:
+      Debug: Config.xcconfig
+      Release: Config.xcconfig
+    sources:
+      - path: Quiver
+    resources:
+      - path: Quiver/Resources
+    info:
+      path: Quiver/Info.plist
+      properties:
+        CFBundleDisplayName: Quiver
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSLocationWhenInUseUsageDescription: "Used to find surf spots near you."
+        # Injected from the GEMINI_API_KEY build setting (Config.xcconfig →
+        # optional Secrets.xcconfig). Empty ⇒ the app runs on the rule engine.
+        GEMINI_API_KEY: "$(GEMINI_API_KEY)"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.eliasleon.quiver
+        GENERATE_INFOPLIST_FILE: NO
+  QuiverTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: QuiverTests
+    dependencies:
+      - target: Quiver
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.eliasleon.quiver.tests

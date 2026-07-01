@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+
+# Xcode project user state (the generated .xcodeproj itself is committed so the
+# repo opens without XcodeGen; only per-user state is ignored)
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# Secrets — never commit a real API key. Local key goes in Secrets.xcconfig,
+# which Config.xcconfig optionally includes. The example file IS committed.
+Secrets.xcconfig

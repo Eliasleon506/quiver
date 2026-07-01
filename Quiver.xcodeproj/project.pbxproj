@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D558950D10F6EA09044F26 /* NOAATidesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB829F94729E0D7CC0EDE3 /* NOAATidesProvider.swift */; };
+		01743D9B6427417A718C797D /* ProfileQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD52F07BC0CF07184E519E2 /* ProfileQuestionsView.swift */; };
+		03DE4C5B8B79CA3B376CBC62 /* ForecastQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E043D8EBABBA6E1553A7FACE /* ForecastQuality.swift */; };
+		0C10D9C7CA76C02F418F06C2 /* QuiverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C010A6E2D03D85EE77663DD4 /* QuiverView.swift */; };
+		0EAC46C3BC9748867D9776E7 /* SpotPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19044D2EC5D2DB4C1DBB58 /* SpotPickerView.swift */; };
+		15B527D77F09DE33A5622187 /* ConditionsSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFEF07EE082C96EFCD9EF84 /* ConditionsSnapshot.swift */; };
+		18E3BB5625274D671F1BFB26 /* NDBCBuoyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314F0CEB9ED8110EBC32063 /* NDBCBuoyProvider.swift */; };
+		19D94E557A5E8F34A5519CA3 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DEA2465D6097ACBC9DD5BB /* RootView.swift */; };
+		1F90B489E92229CF4C4C3C24 /* ConditionsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F925ACB93F7A49C57E167F /* ConditionsProvider.swift */; };
+		210153420A1DC6DBA1396968 /* BacktestRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F534574C45C89D37010EF7F /* BacktestRecorder.swift */; };
+		211B2CEFEBB9E727A3A9653A /* SkillQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD34132E29FBCB03451DCD7 /* SkillQuizView.swift */; };
+		23EB57A8E582DE818457A2FA /* ForecastAccuracy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9118CE8D845AC719C3ED375 /* ForecastAccuracy.swift */; };
+		2B794C9DCA839E083B8FC71F /* BuoyComparisonBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484668F3A22CAA8E23B800B6 /* BuoyComparisonBadge.swift */; };
+		2B8A930E524BDC1DE6CE198F /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A6418DC3942C498B4827E6 /* Enums.swift */; };
+		3EA8B41CB5AACD26F40E060F /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339DA3F33BCBC5EB8DA898B /* KeychainStore.swift */; };
+		401A13544D9C3D029E4DCFC4 /* DimensionRecommenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA6571C191526109513825 /* DimensionRecommenderView.swift */; };
+		45FF276F6DE8E9851601A981 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B87B8FAD18265C2F8A4036 /* Board.swift */; };
+		485C15F1963B0ED126EAA325 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B6C7E4672732D4F6CF175 /* OnboardingFlow.swift */; };
+		50722C55566F8001050302EA /* Recommender.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A6553DE454F05B35489876 /* Recommender.swift */; };
+		50A237D24B7C9472380967F4 /* CompositeConditionsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91CA2B45BFAAC2C16762B63 /* CompositeConditionsProvider.swift */; };
+		54F031E9E7F4C6B59F959E99 /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C90042261D10B0DB79C1D16 /* Units.swift */; };
+		56F178535F8D526D7AF251B5 /* OpenMeteoWindProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0970C53CF73416749DD60CD /* OpenMeteoWindProvider.swift */; };
+		60D7CB358103789200669930 /* DimensionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8BFC47760FFCF0DB757F4A /* DimensionBuilder.swift */; };
+		6183C4BD131DBEFFD58FCC49 /* ConditionsParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAC04AD3F1A7C78DFB7A1C /* ConditionsParsingTests.swift */; };
+		6985197F61B1E242C075B1BB /* QuiverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6740112A0E77B6E0D6BD5818 /* QuiverTests.swift */; };
+		6BFE0A5E1214F068FFCE29E8 /* BlownOutAdvisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B6295A8C6134DEAABB287 /* BlownOutAdvisor.swift */; };
+		6D0CB334DD373E38CE44D3C7 /* SkillQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA12F836417DFB91DF4DFD8 /* SkillQuiz.swift */; };
+		761D7FF0DAD2D0AE1AD4E81A /* RecommenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6B2A3A9A2648894EF4AD50 /* RecommenderTests.swift */; };
+		899F52E1DC082C59A6DB2AE1 /* spots.json in Resources */ = {isa = PBXBuildFile; fileRef = EE9D05AF4DF2190395969648 /* spots.json */; };
+		8B760FE7385605DE5F6B8CBC /* OpenMeteoMarineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6E02D5BA9C97DCE9F49204 /* OpenMeteoMarineProvider.swift */; };
+		8DBC5684F4E6C538B9FA9852 /* ForecastVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F107870340308CB21B9E8B9 /* ForecastVolume.swift */; };
+		8DF463CA39971233D84DA9B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBBA75906F10BAEF0A4DBE /* ContentView.swift */; };
+		93975E7424639CF67C32AF3E /* ForecastRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873A9A96C0158E9E43140759 /* ForecastRecord.swift */; };
+		958894AA94E4C6F5667877B9 /* ForecastVolumeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DDD7FCEC8478CBA4CC5F0A /* ForecastVolumeTests.swift */; };
+		962420C5D38E1CF923DC91F7 /* FavoriteSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB5B173024B1D8E69828FD4 /* FavoriteSpot.swift */; };
+		97CC746DE9050018FF339F59 /* BoardEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073061FCAC42D1F819B7EC9A /* BoardEditorView.swift */; };
+		99154B58734FFBA476459E3A /* ForecastAccuracyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0AE4DDBEEF321273C2C6A /* ForecastAccuracyTests.swift */; };
+		A3F7D198AAD1816EE1BAC0A6 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7971570A5590AA40F262591D /* ForecastView.swift */; };
+		A749A32558BA7C3054C7B20D /* ForecastAccuracyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061942D1A11AEBFCE41A9DC /* ForecastAccuracyView.swift */; };
+		AB1207B260E0DE2FE9266336 /* QuiverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E8A86AB71B1D720FFF752C /* QuiverApp.swift */; };
+		AD3FC97F11046D52BE34442B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A75DA5E59C8E0DA04843A70 /* UserProfile.swift */; };
+		B004935259ED4830505F2BEB /* SpotsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F1411661B853D82871846D /* SpotsStore.swift */; };
+		B4B080FBDB2A423DA425524E /* ForecastQualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B89DCBB2C31E546BC9963 /* ForecastQualityTests.swift */; };
+		BC2AFF77DBDED0FD3A3E5EEA /* QuiverMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540652A306CC99E987A8B7E6 /* QuiverMatcher.swift */; };
+		D11D35592545F90C0409FBB2 /* LiveConditionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6B0B6CCFF64BA851D8B7D8 /* LiveConditionsTests.swift */; };
+		D9846120779DB3C3F02F5613 /* BoardTypeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EB3C9D2799A531FD2583F5 /* BoardTypeSelector.swift */; };
+		F0934960585747D3D90A72D0 /* VolumeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECAB78D318C243EA93354A0 /* VolumeCalculator.swift */; };
+		F390ABA6BBDE76479E2D3560 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67427DCAAF73AC0CAB7B2D60 /* Spot.swift */; };
+		F85857883F48AA83394E447D /* RecommendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D412D7F465410F0240BA53 /* RecommendationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		458948E44698D6EE86375F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01D28E6537F4947A2F5B0F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC418B6936E516FED099DCA;
+			remoteInfo = Quiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BAC04AD3F1A7C78DFB7A1C /* ConditionsParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionsParsingTests.swift; sourceTree = "<group>"; };
+		018B6295A8C6134DEAABB287 /* BlownOutAdvisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlownOutAdvisor.swift; sourceTree = "<group>"; };
+		073061FCAC42D1F819B7EC9A /* BoardEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardEditorView.swift; sourceTree = "<group>"; };
+		0F534574C45C89D37010EF7F /* BacktestRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacktestRecorder.swift; sourceTree = "<group>"; };
+		10A6418DC3942C498B4827E6 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		1C6B0B6CCFF64BA851D8B7D8 /* LiveConditionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveConditionsTests.swift; sourceTree = "<group>"; };
+		1C90042261D10B0DB79C1D16 /* Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Units.swift; sourceTree = "<group>"; };
+		24CBBA75906F10BAEF0A4DBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2ED0AE4DDBEEF321273C2C6A /* ForecastAccuracyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastAccuracyTests.swift; sourceTree = "<group>"; };
+		2F6E02D5BA9C97DCE9F49204 /* OpenMeteoMarineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMeteoMarineProvider.swift; sourceTree = "<group>"; };
+		33CA6571C191526109513825 /* DimensionRecommenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionRecommenderView.swift; sourceTree = "<group>"; };
+		3A75DA5E59C8E0DA04843A70 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		484668F3A22CAA8E23B800B6 /* BuoyComparisonBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuoyComparisonBadge.swift; sourceTree = "<group>"; };
+		4CB5B173024B1D8E69828FD4 /* FavoriteSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSpot.swift; sourceTree = "<group>"; };
+		540652A306CC99E987A8B7E6 /* QuiverMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuiverMatcher.swift; sourceTree = "<group>"; };
+		5ECAB78D318C243EA93354A0 /* VolumeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeCalculator.swift; sourceTree = "<group>"; };
+		6740112A0E77B6E0D6BD5818 /* QuiverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuiverTests.swift; sourceTree = "<group>"; };
+		67427DCAAF73AC0CAB7B2D60 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		6A8BFC47760FFCF0DB757F4A /* DimensionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionBuilder.swift; sourceTree = "<group>"; };
+		72DEA2465D6097ACBC9DD5BB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7971570A5590AA40F262591D /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		7AAB4738B9D98153594BC1EA /* Quiver.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Quiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD34132E29FBCB03451DCD7 /* SkillQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillQuizView.swift; sourceTree = "<group>"; };
+		80EB829F94729E0D7CC0EDE3 /* NOAATidesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAATidesProvider.swift; sourceTree = "<group>"; };
+		82F925ACB93F7A49C57E167F /* ConditionsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionsProvider.swift; sourceTree = "<group>"; };
+		873A9A96C0158E9E43140759 /* ForecastRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastRecord.swift; sourceTree = "<group>"; };
+		8F107870340308CB21B9E8B9 /* ForecastVolume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastVolume.swift; sourceTree = "<group>"; };
+		95DDD7FCEC8478CBA4CC5F0A /* ForecastVolumeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastVolumeTests.swift; sourceTree = "<group>"; };
+		9C7B6C7E4672732D4F6CF175 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		A0970C53CF73416749DD60CD /* OpenMeteoWindProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMeteoWindProvider.swift; sourceTree = "<group>"; };
+		A2EB3C9D2799A531FD2583F5 /* BoardTypeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTypeSelector.swift; sourceTree = "<group>"; };
+		AB6B2A3A9A2648894EF4AD50 /* RecommenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommenderTests.swift; sourceTree = "<group>"; };
+		B2E8A86AB71B1D720FFF752C /* QuiverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuiverApp.swift; sourceTree = "<group>"; };
+		B6F5AE7E300D12C2A1587B29 /* QuiverTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = QuiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A6553DE454F05B35489876 /* Recommender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommender.swift; sourceTree = "<group>"; };
+		B91CA2B45BFAAC2C16762B63 /* CompositeConditionsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeConditionsProvider.swift; sourceTree = "<group>"; };
+		C010A6E2D03D85EE77663DD4 /* QuiverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuiverView.swift; sourceTree = "<group>"; };
+		C04B89DCBB2C31E546BC9963 /* ForecastQualityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastQualityTests.swift; sourceTree = "<group>"; };
+		C314F0CEB9ED8110EBC32063 /* NDBCBuoyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDBCBuoyProvider.swift; sourceTree = "<group>"; };
+		C7B87B8FAD18265C2F8A4036 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		CA19044D2EC5D2DB4C1DBB58 /* SpotPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotPickerView.swift; sourceTree = "<group>"; };
+		CF743EEA48939F1EEF169C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D061942D1A11AEBFCE41A9DC /* ForecastAccuracyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastAccuracyView.swift; sourceTree = "<group>"; };
+		D2D412D7F465410F0240BA53 /* RecommendationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationView.swift; sourceTree = "<group>"; };
+		D4F1411661B853D82871846D /* SpotsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsStore.swift; sourceTree = "<group>"; };
+		DDA12F836417DFB91DF4DFD8 /* SkillQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillQuiz.swift; sourceTree = "<group>"; };
+		E043D8EBABBA6E1553A7FACE /* ForecastQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastQuality.swift; sourceTree = "<group>"; };
+		E9118CE8D845AC719C3ED375 /* ForecastAccuracy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastAccuracy.swift; sourceTree = "<group>"; };
+		EE9D05AF4DF2190395969648 /* spots.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = spots.json; sourceTree = "<group>"; };
+		F339DA3F33BCBC5EB8DA898B /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		FDFEF07EE082C96EFCD9EF84 /* ConditionsSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionsSnapshot.swift; sourceTree = "<group>"; };
+		FFD52F07BC0CF07184E519E2 /* ProfileQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileQuestionsView.swift; sourceTree = "<group>"; };
+		"TEMP_09C646E0-DEB3-4154-BF60-30B61BCC50F5" /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		299B11323FDCC912A0F4FF4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB4738B9D98153594BC1EA /* Quiver.app */,
+				B6F5AE7E300D12C2A1587B29 /* QuiverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29D91E94E92046F8CC084583 /* QuiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				00BAC04AD3F1A7C78DFB7A1C /* ConditionsParsingTests.swift */,
+				2ED0AE4DDBEEF321273C2C6A /* ForecastAccuracyTests.swift */,
+				C04B89DCBB2C31E546BC9963 /* ForecastQualityTests.swift */,
+				95DDD7FCEC8478CBA4CC5F0A /* ForecastVolumeTests.swift */,
+				1C6B0B6CCFF64BA851D8B7D8 /* LiveConditionsTests.swift */,
+				6740112A0E77B6E0D6BD5818 /* QuiverTests.swift */,
+				AB6B2A3A9A2648894EF4AD50 /* RecommenderTests.swift */,
+			);
+			path = QuiverTests;
+			sourceTree = "<group>";
+		};
+		2B9C17665A94A96BDB7AC0A0 /* Backtest */ = {
+			isa = PBXGroup;
+			children = (
+				0F534574C45C89D37010EF7F /* BacktestRecorder.swift */,
+				E9118CE8D845AC719C3ED375 /* ForecastAccuracy.swift */,
+				D061942D1A11AEBFCE41A9DC /* ForecastAccuracyView.swift */,
+			);
+			path = Backtest;
+			sourceTree = "<group>";
+		};
+		35FDF0E2F0E77A6219EAC7CE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				24CBBA75906F10BAEF0A4DBE /* ContentView.swift */,
+				D2D412D7F465410F0240BA53 /* RecommendationView.swift */,
+				72DEA2465D6097ACBC9DD5BB /* RootView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5B31FC968461529E8D09B17F /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				484668F3A22CAA8E23B800B6 /* BuoyComparisonBadge.swift */,
+				E043D8EBABBA6E1553A7FACE /* ForecastQuality.swift */,
+				7971570A5590AA40F262591D /* ForecastView.swift */,
+				8F107870340308CB21B9E8B9 /* ForecastVolume.swift */,
+			);
+			path = Forecast;
+			sourceTree = "<group>";
+		};
+		7BA25A4DF625A074CC192BF0 /* Quiver */ = {
+			isa = PBXGroup;
+			children = (
+				CF743EEA48939F1EEF169C67 /* Info.plist */,
+				B2E8A86AB71B1D720FFF752C /* QuiverApp.swift */,
+				2B9C17665A94A96BDB7AC0A0 /* Backtest */,
+				D20BA476BA01880E0928088B /* Conditions */,
+				5B31FC968461529E8D09B17F /* Forecast */,
+				35FDF0E2F0E77A6219EAC7CE /* Main */,
+				8387E450885169F02516719E /* Models */,
+				C7F355AD441064B6417049E9 /* Onboarding */,
+				8A07331613A1E1D5089B9575 /* Quiver */,
+				E4F561D28A5BEFBA1878CEF6 /* Recommender */,
+				DF28453A0A6083C3FF3B25F2 /* Resources */,
+				9630C0B18CE4BD38938F82AA /* Spots */,
+				94DF1CFED5070B78B7C3CD39 /* Support */,
+			);
+			path = Quiver;
+			sourceTree = "<group>";
+		};
+		8387E450885169F02516719E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7B87B8FAD18265C2F8A4036 /* Board.swift */,
+				FDFEF07EE082C96EFCD9EF84 /* ConditionsSnapshot.swift */,
+				10A6418DC3942C498B4827E6 /* Enums.swift */,
+				4CB5B173024B1D8E69828FD4 /* FavoriteSpot.swift */,
+				873A9A96C0158E9E43140759 /* ForecastRecord.swift */,
+				67427DCAAF73AC0CAB7B2D60 /* Spot.swift */,
+				3A75DA5E59C8E0DA04843A70 /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8950101F55BD1AC44F5AD144 = {
+			isa = PBXGroup;
+			children = (
+				7BA25A4DF625A074CC192BF0 /* Quiver */,
+				29D91E94E92046F8CC084583 /* QuiverTests */,
+				299B11323FDCC912A0F4FF4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A07331613A1E1D5089B9575 /* Quiver */ = {
+			isa = PBXGroup;
+			children = (
+				073061FCAC42D1F819B7EC9A /* BoardEditorView.swift */,
+				33CA6571C191526109513825 /* DimensionRecommenderView.swift */,
+				C010A6E2D03D85EE77663DD4 /* QuiverView.swift */,
+			);
+			path = Quiver;
+			sourceTree = "<group>";
+		};
+		94DF1CFED5070B78B7C3CD39 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F339DA3F33BCBC5EB8DA898B /* KeychainStore.swift */,
+				1C90042261D10B0DB79C1D16 /* Units.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		9630C0B18CE4BD38938F82AA /* Spots */ = {
+			isa = PBXGroup;
+			children = (
+				CA19044D2EC5D2DB4C1DBB58 /* SpotPickerView.swift */,
+				D4F1411661B853D82871846D /* SpotsStore.swift */,
+			);
+			path = Spots;
+			sourceTree = "<group>";
+		};
+		C7F355AD441064B6417049E9 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				9C7B6C7E4672732D4F6CF175 /* OnboardingFlow.swift */,
+				FFD52F07BC0CF07184E519E2 /* ProfileQuestionsView.swift */,
+				DDA12F836417DFB91DF4DFD8 /* SkillQuiz.swift */,
+				7CD34132E29FBCB03451DCD7 /* SkillQuizView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D20BA476BA01880E0928088B /* Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				B91CA2B45BFAAC2C16762B63 /* CompositeConditionsProvider.swift */,
+				82F925ACB93F7A49C57E167F /* ConditionsProvider.swift */,
+				C314F0CEB9ED8110EBC32063 /* NDBCBuoyProvider.swift */,
+				80EB829F94729E0D7CC0EDE3 /* NOAATidesProvider.swift */,
+				2F6E02D5BA9C97DCE9F49204 /* OpenMeteoMarineProvider.swift */,
+				A0970C53CF73416749DD60CD /* OpenMeteoWindProvider.swift */,
+			);
+			path = Conditions;
+			sourceTree = "<group>";
+		};
+		DF28453A0A6083C3FF3B25F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D05AF4DF2190395969648 /* spots.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4F561D28A5BEFBA1878CEF6 /* Recommender */ = {
+			isa = PBXGroup;
+			children = (
+				018B6295A8C6134DEAABB287 /* BlownOutAdvisor.swift */,
+				A2EB3C9D2799A531FD2583F5 /* BoardTypeSelector.swift */,
+				6A8BFC47760FFCF0DB757F4A /* DimensionBuilder.swift */,
+				540652A306CC99E987A8B7E6 /* QuiverMatcher.swift */,
+				B7A6553DE454F05B35489876 /* Recommender.swift */,
+				5ECAB78D318C243EA93354A0 /* VolumeCalculator.swift */,
+			);
+			path = Recommender;
+			sourceTree = "<group>";
+		};
+		"TEMP_59956B1D-F0FB-49D9-8DDE-ADBE77050AAA" /* myCoreLord */ = {
+			isa = PBXGroup;
+			children = (
+				"TEMP_09C646E0-DEB3-4154-BF60-30B61BCC50F5" /* Config.xcconfig */,
+			);
+			path = myCoreLord;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC418B6936E516FED099DCA /* Quiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469411822C195720703B3BC1 /* Build configuration list for PBXNativeTarget "Quiver" */;
+			buildPhases = (
+				A9AADBA59C90B94D31BD7589 /* Sources */,
+				BE6563F4EB1D030A0CFE5063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quiver;
+			packageProductDependencies = (
+			);
+			productName = Quiver;
+			productReference = 7AAB4738B9D98153594BC1EA /* Quiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B08F40D1C51F7B875A838387 /* QuiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8836419E890D1AE379AE43B /* Build configuration list for PBXNativeTarget "QuiverTests" */;
+			buildPhases = (
+				0BA41EF01FFE226A7BDA39A3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD99275B23350D57C6315CDE /* PBXTargetDependency */,
+			);
+			name = QuiverTests;
+			packageProductDependencies = (
+			);
+			productName = QuiverTests;
+			productReference = B6F5AE7E300D12C2A1587B29 /* QuiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01D28E6537F4947A2F5B0F80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 85C5E1E223EC14786D5CE43D /* Build configuration list for PBXProject "Quiver" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8950101F55BD1AC44F5AD144;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 299B11323FDCC912A0F4FF4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC418B6936E516FED099DCA /* Quiver */,
+				B08F40D1C51F7B875A838387 /* QuiverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE6563F4EB1D030A0CFE5063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899F52E1DC082C59A6DB2AE1 /* spots.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BA41EF01FFE226A7BDA39A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6183C4BD131DBEFFD58FCC49 /* ConditionsParsingTests.swift in Sources */,
+				99154B58734FFBA476459E3A /* ForecastAccuracyTests.swift in Sources */,
+				B4B080FBDB2A423DA425524E /* ForecastQualityTests.swift in Sources */,
+				958894AA94E4C6F5667877B9 /* ForecastVolumeTests.swift in Sources */,
+				D11D35592545F90C0409FBB2 /* LiveConditionsTests.swift in Sources */,
+				6985197F61B1E242C075B1BB /* QuiverTests.swift in Sources */,
+				761D7FF0DAD2D0AE1AD4E81A /* RecommenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AADBA59C90B94D31BD7589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210153420A1DC6DBA1396968 /* BacktestRecorder.swift in Sources */,
+				6BFE0A5E1214F068FFCE29E8 /* BlownOutAdvisor.swift in Sources */,
+				45FF276F6DE8E9851601A981 /* Board.swift in Sources */,
+				97CC746DE9050018FF339F59 /* BoardEditorView.swift in Sources */,
+				D9846120779DB3C3F02F5613 /* BoardTypeSelector.swift in Sources */,
+				2B794C9DCA839E083B8FC71F /* BuoyComparisonBadge.swift in Sources */,
+				50A237D24B7C9472380967F4 /* CompositeConditionsProvider.swift in Sources */,
+				1F90B489E92229CF4C4C3C24 /* ConditionsProvider.swift in Sources */,
+				15B527D77F09DE33A5622187 /* ConditionsSnapshot.swift in Sources */,
+				8DF463CA39971233D84DA9B6 /* ContentView.swift in Sources */,
+				60D7CB358103789200669930 /* DimensionBuilder.swift in Sources */,
+				401A13544D9C3D029E4DCFC4 /* DimensionRecommenderView.swift in Sources */,
+				2B8A930E524BDC1DE6CE198F /* Enums.swift in Sources */,
+				962420C5D38E1CF923DC91F7 /* FavoriteSpot.swift in Sources */,
+				23EB57A8E582DE818457A2FA /* ForecastAccuracy.swift in Sources */,
+				A749A32558BA7C3054C7B20D /* ForecastAccuracyView.swift in Sources */,
+				03DE4C5B8B79CA3B376CBC62 /* ForecastQuality.swift in Sources */,
+				93975E7424639CF67C32AF3E /* ForecastRecord.swift in Sources */,
+				A3F7D198AAD1816EE1BAC0A6 /* ForecastView.swift in Sources */,
+				8DBC5684F4E6C538B9FA9852 /* ForecastVolume.swift in Sources */,
+				3EA8B41CB5AACD26F40E060F /* KeychainStore.swift in Sources */,
+				18E3BB5625274D671F1BFB26 /* NDBCBuoyProvider.swift in Sources */,
+				00D558950D10F6EA09044F26 /* NOAATidesProvider.swift in Sources */,
+				485C15F1963B0ED126EAA325 /* OnboardingFlow.swift in Sources */,
+				8B760FE7385605DE5F6B8CBC /* OpenMeteoMarineProvider.swift in Sources */,
+				56F178535F8D526D7AF251B5 /* OpenMeteoWindProvider.swift in Sources */,
+				01743D9B6427417A718C797D /* ProfileQuestionsView.swift in Sources */,
+				AB1207B260E0DE2FE9266336 /* QuiverApp.swift in Sources */,
+				BC2AFF77DBDED0FD3A3E5EEA /* QuiverMatcher.swift in Sources */,
+				0C10D9C7CA76C02F418F06C2 /* QuiverView.swift in Sources */,
+				F85857883F48AA83394E447D /* RecommendationView.swift in Sources */,
+				50722C55566F8001050302EA /* Recommender.swift in Sources */,
+				19D94E557A5E8F34A5519CA3 /* RootView.swift in Sources */,
+				6D0CB334DD373E38CE44D3C7 /* SkillQuiz.swift in Sources */,
+				211B2CEFEBB9E727A3A9653A /* SkillQuizView.swift in Sources */,
+				F390ABA6BBDE76479E2D3560 /* Spot.swift in Sources */,
+				0EAC46C3BC9748867D9776E7 /* SpotPickerView.swift in Sources */,
+				B004935259ED4830505F2BEB /* SpotsStore.swift in Sources */,
+				54F031E9E7F4C6B59F959E99 /* Units.swift in Sources */,
+				AD3FC97F11046D52BE34442B /* UserProfile.swift in Sources */,
+				F0934960585747D3D90A72D0 /* VolumeCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD99275B23350D57C6315CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC418B6936E516FED099DCA /* Quiver */;
+			targetProxy = 458948E44698D6EE86375F6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2695CD71A6A17B4B304AF974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = "TEMP_09C646E0-DEB3-4154-BF60-30B61BCC50F5" /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Quiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eliasleon.quiver;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59E2AAF38739F2E6B642A019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		B368FDA2D966BEB6D0F3EACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		D5B2F50100BE5D84AE5E8CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = "TEMP_09C646E0-DEB3-4154-BF60-30B61BCC50F5" /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Quiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eliasleon.quiver;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFC75D264AD44F7223048345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eliasleon.quiver.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiver.app/Quiver";
+			};
+			name = Debug;
+		};
+		FB48C6C4C810A4A41C865CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eliasleon.quiver.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiver.app/Quiver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469411822C195720703B3BC1 /* Build configuration list for PBXNativeTarget "Quiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2695CD71A6A17B4B304AF974 /* Debug */,
+				D5B2F50100BE5D84AE5E8CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		85C5E1E223EC14786D5CE43D /* Build configuration list for PBXProject "Quiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B368FDA2D966BEB6D0F3EACC /* Debug */,
+				59E2AAF38739F2E6B642A019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8836419E890D1AE379AE43B /* Build configuration list for PBXNativeTarget "QuiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC75D264AD44F7223048345 /* Debug */,
+				FB48C6C4C810A4A41C865CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01D28E6537F4947A2F5B0F80 /* Project object */;
+}

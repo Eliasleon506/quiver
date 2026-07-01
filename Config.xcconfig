@@ -1,0 +1,12 @@
+// Base build configuration (committed).
+//
+// The Gemini layer is OPTIONAL — with no key the app runs entirely on the
+// deterministic rule engine. To enable Gemini locally, copy
+// Secrets.example.xcconfig → Secrets.xcconfig and add your key there.
+// Secrets.xcconfig is git-ignored, so your key never gets committed.
+
+GEMINI_API_KEY =
+
+// Optional include: pulled in only if Secrets.xcconfig exists (the `?` makes
+// it non-fatal when absent, so a fresh clone still builds).
+#include? "Secrets.xcconfig"
