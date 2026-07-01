@@ -22,9 +22,11 @@ struct ForecastAccuracyView: View {
                 Section {
                     if overall.sampleCount == 0 {
                         ContentUnavailableView(
-                            "No verified forecasts yet",
+                            pendingCount == 0 ? "No forecasts tracked yet" : "Tracking \(pendingCount) prediction\(pendingCount == 1 ? "" : "s")",
                             systemImage: "chart.xyaxis.line",
-                            description: Text("Predictions are logged as you browse spots, then checked against live buoy readings once that hour arrives. Check back after the app has run across a few tide cycles.")
+                            description: Text(pendingCount == 0
+                                ? "Open a few spots to start logging predictions. Each is checked against live buoy readings once its forecast hour arrives."
+                                : "\(pendingCount) prediction\(pendingCount == 1 ? "" : "s") logged — none have reached their forecast hour yet. Accuracy stats appear once that hour passes and a buoy reading confirms it, usually a day or two of use.")
                         )
                     } else {
                         statRow("Mean error (wave height)",

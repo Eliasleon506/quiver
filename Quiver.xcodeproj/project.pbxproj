@@ -121,7 +121,7 @@
 		F339DA3F33BCBC5EB8DA898B /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
 		FDFEF07EE082C96EFCD9EF84 /* ConditionsSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionsSnapshot.swift; sourceTree = "<group>"; };
 		FFD52F07BC0CF07184E519E2 /* ProfileQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileQuestionsView.swift; sourceTree = "<group>"; };
-		"TEMP_09C646E0-DEB3-4154-BF60-30B61BCC50F5" /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		"TEMP_2CC2E1F2-C93D-4916-BC1C-8D48D6A3899C" /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -295,10 +295,10 @@
 			path = Recommender;
 			sourceTree = "<group>";
 		};
-		"TEMP_59956B1D-F0FB-49D9-8DDE-ADBE77050AAA" /* myCoreLord */ = {
+		"TEMP_94D40858-0614-45F6-95BC-5164E8E67673" /* myCoreLord */ = {
 			isa = PBXGroup;
 			children = (
-				"TEMP_09C646E0-DEB3-4154-BF60-30B61BCC50F5" /* Config.xcconfig */,
+				"TEMP_2CC2E1F2-C93D-4916-BC1C-8D48D6A3899C" /* Config.xcconfig */,
 			);
 			path = myCoreLord;
 			sourceTree = "<group>";
@@ -351,6 +351,10 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					AEC418B6936E516FED099DCA = {
+						DevelopmentTeam = R5K34ZUU42;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 85C5E1E223EC14786D5CE43D /* Build configuration list for PBXProject "Quiver" */;
@@ -460,10 +464,12 @@
 /* Begin XCBuildConfiguration section */
 		2695CD71A6A17B4B304AF974 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = "TEMP_09C646E0-DEB3-4154-BF60-30B61BCC50F5" /* Config.xcconfig */;
+			baseConfigurationReference = "TEMP_2CC2E1F2-C93D-4916-BC1C-8D48D6A3899C" /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5K34ZUU42;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Quiver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -613,10 +619,12 @@
 		};
 		D5B2F50100BE5D84AE5E8CA1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = "TEMP_09C646E0-DEB3-4154-BF60-30B61BCC50F5" /* Config.xcconfig */;
+			baseConfigurationReference = "TEMP_2CC2E1F2-C93D-4916-BC1C-8D48D6A3899C" /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5K34ZUU42;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Quiver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -44,6 +44,10 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.eliasleon.quiver
         GENERATE_INFOPLIST_FILE: NO
+        # Personal-team signing so `xcodegen generate` doesn't wipe it. Replace with
+        # your own team id if someone else builds to a device.
+        DEVELOPMENT_TEAM: R5K34ZUU42
+        CODE_SIGN_STYLE: Automatic
   QuiverTests:
     type: bundle.unit-test
     platform: iOS
