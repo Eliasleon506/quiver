@@ -36,7 +36,6 @@ targets:
           UIApplicationSupportsMultipleScenes: false
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait
-        NSLocationWhenInUseUsageDescription: "Used to find surf spots near you."
         # Injected from the GEMINI_API_KEY build setting (Config.xcconfig →
         # optional Secrets.xcconfig). Empty ⇒ the app runs on the rule engine.
         GEMINI_API_KEY: "$(GEMINI_API_KEY)"
