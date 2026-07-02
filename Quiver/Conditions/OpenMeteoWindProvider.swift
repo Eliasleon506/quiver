@@ -34,6 +34,7 @@ struct OpenMeteoWindProvider: Sendable {
         let iso = ISO8601DateFormatter()
         iso.formatOptions = [.withInternetDateTime]
         let plain = DateFormatter()
+        plain.locale = Locale(identifier: "en_US_POSIX")   // fixed-format parsing must ignore device locale/calendar
         plain.dateFormat = "yyyy-MM-dd'T'HH:mm"
         plain.timeZone = TimeZone(secondsFromGMT: 0)
 

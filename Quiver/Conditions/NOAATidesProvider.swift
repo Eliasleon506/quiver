@@ -24,6 +24,7 @@ struct NOAATidesProvider: Sendable {
         let begin = Date()
         let end = Calendar.current.date(byAdding: .hour, value: max(1, hours), to: begin) ?? begin
         let dateFmt = DateFormatter()
+        dateFmt.locale = Locale(identifier: "en_US_POSIX")   // request dates must be Gregorian regardless of device region
         dateFmt.dateFormat = "yyyyMMdd HH:mm"
         dateFmt.timeZone = TimeZone(identifier: "GMT")
         comps.queryItems = [
@@ -45,6 +46,7 @@ struct NOAATidesProvider: Sendable {
     static func parse(_ resp: PredictionsResponse) -> [TidePrediction] {
         guard let items = resp.predictions else { return [] }
         let fmt = DateFormatter()
+        fmt.locale = Locale(identifier: "en_US_POSIX")
         fmt.dateFormat = "yyyy-MM-dd HH:mm"
         fmt.timeZone = TimeZone(identifier: "GMT")
         return items.compactMap { item in
